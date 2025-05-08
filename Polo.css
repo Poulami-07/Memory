@@ -1,0 +1,112 @@
+body{
+    background-image:url(background.jpg) 
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 4em; 
+    color: saddlebrown;
+    margin-bottom: 0;
+}
+p{
+    color: brown;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    
+}
+h2{
+    color: indianred;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+  }
+  .gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery img {
+    width: 90%;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(255, 105, 180, 0.5); /* Soft pink glow */
+    transition: all 0.3s ease;
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    position: relative;
+  }
+  .gallery img:hover {
+    box-shadow: 0 0 16px rgba(255, 105, 180, 0.8); 
+    border: 4px solid #ffb6c1; 
+    transform: scale(1.03);
+  }
+  
+  .caption {
+    margin-top: 8px;
+    font-size: 1em;
+    color:brown;
+  }
+
+  .love-heading {
+    font-size: 1.6em;
+    color:brown;
+    margin-bottom: 16px;
+    text-shadow: 1px 1px #ffe6f0;
+  }
+  .reasons {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 700px;
+    font-size: 1.1em;
+    color: #8c3b66;
+    text-align: left;
+  }
+  .reasons li {
+    background: #ffe4ec;
+    margin: 12px 0;
+    padding: 12px 18px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(255, 192, 203, 0.4);
+    position: relative;
+  }
+  .reasons li span {
+    color: #ff69b4;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .closing-line {
+    margin-top: 45px;
+    font-style: italic;
+    color: #a0528a;
+    font-size: 1.5em;
+  }
+  button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background:#a0528a;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+
+  }
+  .btn_con {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    background:#bd87ae;
+  }
